@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqpvma757rmsi"]
+
+[ext_resource type="Script" path="res://server/server_main.gd" id="1_h7dko"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_h7dko")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Server"
